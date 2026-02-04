@@ -220,10 +220,4 @@ journalctl -u strapi -n 50
 - [setup.sh](terraforms/modules/compute/setup.sh) - Strapi installation script
 - [.gitignore](.gitignore) - Git ignore rules for sensitive files
 
-## Next Steps
 
-1. Test Strapi deployment in production mode
-2. Implement RDS for persistent database
-3. Add CloudFront for CDN
-4. Set up auto-scaling with Application Load Balancer
-5. Implement CI/CD pipeline for automated deployments
