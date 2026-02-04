@@ -1,0 +1,12 @@
+# Example terraform.tfvars file
+# Uncomment and modify the values as needed
+
+# aws_region         = "us-east-1"
+# instance_type      = "t2.micro"
+# key_name           = "my-terraform-key"
+# instance_name      = "my-terraform-instance"
+# environment        = "development"
+# allowed_ssh_cidr   = ["0.0.0.0/0"]  # WARNING: Open to the world - use your IP in production
+
+# For production, restrict SSH access to your IP:
+# allowed_ssh_cidr   = ["YOUR_IP/32"]  # Replace YOUR_IP with your actual IP
